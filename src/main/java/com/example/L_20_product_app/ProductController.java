@@ -43,7 +43,7 @@ public class ProductController {
 
     @GetMapping("/hello")
     public String Hello(){
-        return "Hello JBDL 85, 27 Sept 11:00 AM - "+Thread.currentThread().getName();
+        return "Hello JBDL 85, 27 Sept 3:00 PM - "+Thread.currentThread().getName();
 
     }
 
